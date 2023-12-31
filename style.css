@@ -1,0 +1,72 @@
+.container
+{
+    height: 96vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;   
+}
+
+ .calculator
+{
+   /*border:solid red;*/
+   display:flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items:center;
+}
+.monitor
+{
+    display:flex;
+    flex-direction: column;
+    height:13vh;
+    border:solid rgb(179, 177, 177);
+    /*background-color: grey;*/  
+    width:42vh;
+    border-width: 0.45vh;
+    margin: 0.69vh;
+}
+.operation
+{
+    height:3vh;
+    font-size:3vh;
+}
+.result
+{
+    height:10vh;
+    font-size: 10vh;
+}
+
+.keyboard
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;   
+}
+.row
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;   
+}
+.btn
+{
+    background-color:rgb(215, 248, 245);
+    padding: 1.5vh;
+    font-size: 3vh;
+    width:10vh;
+    margin:0.4vh;
+    border: solid rgb(252, 247, 247);
+    border-width: 0.3vh;
+}
+.btn:active
+{
+    border: solid rgb(12, 12, 12);
+    border-width: 0.3vh;
+    background-color:rgb(15, 119, 238);
+}
+.num
+{
+    background-color:rgb(198, 192, 243);
+}
